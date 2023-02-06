@@ -1,7 +1,5 @@
 # contact-book-frontend
 
-O projeto tem o cadastro de clientes que podem conter muitos contatos associados. Depois deste processo terá um relatório em tela e PDF que mostra dados do cliente e os contatos vinculados a este cliente.
-
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
