@@ -1,48 +1,53 @@
 # contact-book-frontend
 
-## Getting Started with Create React App
+## 1. Descrição
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto é a parte frontend da aplicação contact-book cujas funcinalidades precisam estar em conjunto com a parte do backend da aplicação que você pode acessar [clicando aqui](https://github.com/maksonss4/contact-book-backend) e seguindo os simples passos de instalação e execução. Esse app possui um CRUD de usuários que podem conter muitos contatos associados, onde usuários autenticados e com permissão podem acessar o CRUD dos seus contatos associados.
 
-## Available Scripts
+## 2. Tecnologias utilizadas
 
-In the project directory, you can run:
+- [React](https://reactjs.org/docs/getting-started.html)
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [Styled Components](https://styled-components.com/)
+- [Axios](https://axios-http.com/docs/intro)
+- [Cors](https://www.npmjs.com/package/cors)
+- [React-Hook-Form](https://react-hook-form.com/get-started/)
+- [React-Router-Dom](https://reactrouter.com/en/main)
+- [React-Icons](https://react-icons.github.io/react-icons/)
+- [Yup](https://www.npmjs.com/package/yup/v/0.32.11)
 
-### `yarn start`
+## 3. Passos de instalação e execução
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 3.1 Clonando API
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A aplicação precisa estar em conjunto com a API que você pode utilizar [clicando aqui](https://contact-book-lac.vercel.app/landingpage), siga os simples passos de instalação e execução da API (Na própria documentação da API) e assim poderá acessar todas as funcionalidades dessa aplicação.
 
-### `yarn test`
+### 3.2 Acessando a aplicação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Com a API rodando na sua máquina, [Clique aqui](https://contact-book-lac.vercel.app/landingpage) para utilizar a aplicação em produção :)
 
-### `yarn build`
+## 4. Outra maneira de utilizar a aplicação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Você também pode utilizar essa aplicação rodando o servidor em sua máquina. Siga os seguintes passos:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4.1 Clone
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone o projeto em sua máquina.
 
-### `yarn eject`
+### 4.2 Instalando dependências
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Instale as dependências no projeto com o comando:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+yarn
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 4.3 Rodando a aplicação
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Digite o seguinte comando no terminal para rodar a aplicação no localhost:
 
-## Learn More
+```
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Obs.: Lembre-se de rodar em conjunto a [API](https://contact-book-lac.vercel.app/landingpage) seguindo os passos de instalação e execução para que possa utilizar corretamente a aplicação.
